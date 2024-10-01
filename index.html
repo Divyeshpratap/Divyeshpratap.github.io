@@ -1,119 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Divyesh Pratap Singh - Machine Learning Engineer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 90%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            float: right;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        header h1 {
-            float: left;
-        }
-        .content-section {
-            background-color: #fff;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 10px;
-        }
-        h2 {
-            color: #333;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #333;
-            color: #fff;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        .footer-links a {
-            color: #fff;
-            margin: 0 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Divyesh Pratap Singh - Machine Learning Engineer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      color: #f5f5f5;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0 20px;
+    }
+    a {
+      color: #00aced;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    h1, h2, h3 {
+      color: #ff5733;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: #444;
+      margin: 40px 0;
+    }
+    .badge-img {
+      height: 25px;
+      margin: 2px;
+    }
+    .badge-link {
+      display: inline-block;
+      margin: 2px;
+    }
+    .featured-repos table {
+      width: 100%;
+      table-layout: fixed;
+    }
+    .featured-repos td {
+      padding: 10px;
+      text-align: center;
+    }
+    .footer-img {
+      height: 20px;
+      width: 100%;
+    }
+    .projects, .experience, .education, .skills, .connect {
+      margin-bottom: 40px;
+    }
+    .projects img, .experience img, .education img, .skills img, .connect img {
+      max-width: 100%;
+      height: auto;
+    }
+    .project, .experience-item, .education-item, .skill-item {
+      margin-bottom: 20px;
+    }
+    .section-title {
+      border-bottom: 2px solid #ff5733;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .featured-repos table, .featured-repos tr, .featured-repos td {
+        display: block;
+        width: 100%;
+      }
+      .featured-repos td {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-<header>
-    <div class="container">
-        <h1>Divyesh Pratap Singh</h1>
-        <ul>
-            <li><a href="mailto:singh_divyesh@outlook.com"><i class="fas fa-envelope"></i> Email Me</a></li>
-            <li><a href="https://linkedin.com/in/divyesh-pratap-singh"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-            <li><a href="https://github.com/Divyeshpratap"><i class="fab fa-github"></i> GitHub</a></li>
-        </ul>
+  <header>
+    <h1>👋 Hi there, I'm Divyesh Pratap Singh</h1>
+    
+    <!-- Resume and LeetCode Links -->
+    <p align="center">
+      📄 <a href="./resume.pdf" target="_blank">Resume</a> | 🐱‍💻 <a href="https://leetcode.com/u/DivyeshSingh/" target="_blank">LeetCode</a>
+    </p>
+    
+    <!-- Dynamic Typing SVG for Welcome Message -->
+    <!-- Centered Typing SVG -->
+    <div align="center">
+      <a href="https://git.io/typing-svg" target="_blank">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&size=30&duration=5000&color=%23F7F7F7&background=%23000000&center=true&vCenter=true&width=800&height=100&lines=Welcome+to+my+GitHub+Page!" alt="Typing SVG">
+      </a>
     </div>
-</header>
-
-<div class="container">
-    <section class="content-section">
-        <h2>About Me</h2>
-        <p>👋 Hi there, I'm Divyesh Pratap Singh, an ML engineer with over 5 years of experience solving problems in the automotive and finance sectors.</p>
-        <p>Currently pursuing a Master’s in Artificial Intelligence at the University at Buffalo, focusing on research in multimodal Active Speaker Localization and NLP-driven Child Speech Modeling.</p>
-        <p>Experienced in deploying SOTA architectures like BERT, RAG, LLaMA, and GPT for innovative solutions.</p>
-    </section>
-
-    <section class="content-section">
-        <h2>Skills & Tools</h2>
-        <p><strong>Programming:</strong> Python, SQL, Java, Shell Scripting, HTML</p>
-        <p><strong>Machine Learning:</strong> Transformers, RAG, Predictive Analytics, Feature Engineering</p>
-        <p><strong>Frameworks & Libraries:</strong> PyTorch, TensorFlow, Hugging Face, OpenMMLab</p>
-    </section>
-
-    <section class="content-section">
-        <h2>Projects</h2>
-        <p><strong>[NVson - Noun Verb Syntax Observation Network](https://github.com/Divyeshpratap/NVson):</strong> Developed an explanatory model classifying nouns and verbs into novel categories.</p>
-        <p><strong>[AI-Powered Car Damage Detection Platform](https://github.com/Divyeshpratap/A.I.-AutoInspector):</strong> AI-driven web application for car damage detection and cost estimation.</p>
-    </section>
-
-    <section class="content-section">
-        <h2>GitHub Stats</h2>
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Divyeshpratap&theme=gruvbox" alt="GitHub Stats">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Divyeshpratap&theme=dark" alt="GitHub Streak">
-    </section>
-</div>
-
-<footer>
-    <div class="footer-links">
-        <a href="https://github.com/Divyeshpratap">GitHub</a> |
-        <a href="https://linkedin.com/in/divyesh-pratap-singh">LinkedIn</a>
+  </header>
+  
+  <hr>
+  
+  <!-- Intro Section -->
+  <section class="intro">
+    <ul>
+      <li>👋 <strong>Greetings fellow ML enthusiasts!</strong> I'm <strong>Divyesh</strong>, an ML engineer with over <strong>5 years of experience</strong> solving problems in the <strong>automotive</strong> and <strong>finance</strong> sectors, leveraging <strong>AI</strong> and advanced <strong>analytics</strong>. I am actively looking for <strong>full-time opportunities</strong> in <strong>Machine Learning</strong> and <strong>Data Science</strong>.</li>
+      
+      <li><strong>🌱 Learning:</strong> I am proficient in leveraging various Machine Learning frameworks and have built systems using <strong>SOTA architectures</strong> like <strong>BERT</strong>, <strong>RAG</strong>, and <strong>LLM models</strong> such as <strong>LLaMA</strong> and <strong>GPT</strong>.</li>
+      
+      <li><strong>🔭 Current Work:</strong> I am pursuing a <strong>Master's in Artificial Intelligence</strong> at the <strong>University at Buffalo</strong>, New York, where I work as a <strong>Graduate Research Assistant</strong> at the <strong>SUNY Research Foundation</strong>, focusing on <strong>multimodal Active Speaker Localization</strong> and <strong>NLP-driven Child Speech Modeling</strong>. In my current research, I have <strong>fine-tuned the RoBERTa architecture</strong> to classify nouns into previously undefined categories like <strong>Shape and Non-Shape Nouns</strong>, and verbs into <strong>Result and Manner Verbs</strong> using my own annotated large corpus of <strong>2.5 million words</strong>. I am working towards leveraging <strong>RLHF techniques</strong> to <strong>supervise fine-tune</strong> the <strong>LLaMA model</strong> to perform similar classification tasks, enabling the creation of an <strong>explainable model</strong>.</li>
+      
+      <li><strong>👨‍💼 Experience:</strong> I have previously worked with <strong>Suzuki Motors</strong> (India’s largest automobile manufacturer) and one of the <strong>top three credit card companies in the USA</strong> (full-time contract role). I impacted areas ranging from <strong>logistics and sales</strong> to <strong>risk management</strong> and <strong>credit policies</strong>. Proficient in <strong>Agile</strong> and <strong>Kanban</strong>, my journey encompasses launching <strong>end-to-end projects</strong> cross-functionally via <strong>CI/CD</strong>.</li>
+      
+      <li><strong>👯 Looking to Collaborate On:</strong> Innovative projects involving <strong>RAG systems</strong> and <strong>LLM Fine-Tuning</strong>.</li>
+      
+      <li><strong>📫 How to Reach Me:</strong> <a href="https://www.linkedin.com/in/divyesh-pratap-singh/" target="_blank">LinkedIn</a> | singh_divyesh@outlook.com</li>
+    </ul>
+  </section>
+  
+  <hr>
+  
+  <!-- Languages and Tools Section -->
+  <section class="languages-tools">
+    <h2 class="section-title">🛠️ Languages and Tools</h2>
+    
+    <h3>Programming Languages and Frameworks:</h3>
+    <div class="badges">
+      <a href="https://www.python.org/" class="badge-link" target="_blank"><img class="badge-img" alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"></a>
+      <a href="https://www.mysql.com/" class="badge-link" target="_blank"><img class="badge-img" alt="MySQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="badge-link" target="_blank"><img class="badge-img" alt="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"></a>
+      <a href="https://flask.palletsprojects.com/" class="badge-link" target="_blank"><img class="badge-img" alt="Flask" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"></a>
+      <a href="https://www.atlassian.com/software/jira" class="badge-link" target="_blank"><img class="badge-img" alt="JIRA" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"></a>
+      <a href="https://git-scm.com/" class="badge-link" target="_blank"><img class="badge-img" alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"></a>
+      <a href="https://kubernetes.io/" class="badge-link" target="_blank"><img class="badge-img" alt="Kubernetes" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"></a>
+      <a href="https://www.openshift.com/" class="badge-link" target="_blank"><img class="badge-img" alt="OpenShift" src="https://img.shields.io/badge/OpenShift-EE0000?logo=openshift&logoColor=white"></a>
+      <a href="https://cloud.google.com/" class="badge-link" target="_blank"><img class="badge-img" alt="GCP" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"></a>
+      <a href="https://lucene.apache.org/solr/" class="badge-link" target="_blank"><img class="badge-img" alt="Solr" src="https://img.shields.io/badge/Solr-000000?logo=apachesolr&logoColor=white"></a>
     </div>
-    <p>&copy; 2024 Divyesh Pratap Singh</p>
-</footer>
-
+    
+    <h3>Machine Learning & Data Science:</h3>
+    <div class="badges">
+      <a href="https://scikit-learn.org/" class="badge-link" target="_blank"><img class="badge-img" alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white"></a>
+      <a href="https://pytorch.org/" class="badge-link" target="_blank"><img class="badge-img" alt="PyTorch" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"></a>
+      <a href="https://www.tensorflow.org/" class="badge-link" target="_blank"><img class="badge-img" alt="TensorFlow" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"></a>
+      <a href="https://hadoop.apache.org/" class="badge-link" target="_blank"><img class="badge-img" alt="Hadoop" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg"></a>
+      <a href="https://spark.apache.org/docs/latest/api/python/" class="badge-link" target="_blank"><img class="badge-img" alt="PySpark" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg"></a>
+      <a href="https://huggingface.co/" class="badge-link" target="_blank"><img class="badge-img" alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-FCA121?logo=huggingface&logoColor=white"></a>
+      <a href="https://github.com/huggingface/transformers" class="badge-link" target="_blank"><img class="badge-img" alt="Transformers" src="https://img.shields.io/badge/Transformers-FF5733?logo=transformers&logoColor=white"></a>
+      <a href="https://github.com/huggingface/peft" class="badge-link" target="_blank"><img class="badge-img" alt="LoRA" src="https://img.shields.io/badge/LoRA-FF5733?logo=generic&logoColor=white"></a>
+      <a href="https://hive.apache.org/" class="badge-link" target="_blank"><img class="badge-img" alt="Hive" src="https://img.shields.io/badge/Hive-EF6C00?logo=apachehive&logoColor=white"></a>
+      <a href="https://spacy.io/" class="badge-link" target="_blank"><img class="badge-img" alt="spaCy" src="https://img.shields.io/badge/spaCy-000000?logo=spacy&logoColor=white"></a>
+      <a href="https://www.nltk.org/" class="badge-link" target="_blank"><img class="badge-img" alt="NLTK" src="https://img.shields.io/badge/NLTK-000000?logo=nltk&logoColor=white"></a>
+      <a href="https://github.com/openai/gpt-3" class="badge-link" target="_blank"><img class="badge-img" alt="GPT" src="https://img.shields.io/badge/GPT-343541?logo=openai&logoColor=white"></a>
+      <a href="https://github.com/facebookresearch/llama" class="badge-link" target="_blank"><img class="badge-img" alt="LLaMA" src="https://img.shields.io/badge/LLaMA-00BFFF?logo=llama&logoColor=white"></a>
+      <a href="https://github.com/pytorch/fairseq/tree/main/examples/roberta" class="badge-link" target="_blank"><img class="badge-img" alt="RoBERTa" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/roberta/roberta-original.svg"></a>
+      <a href="https://github.com/facebookresearch/faiss" class="badge-link" target="_blank"><img class="badge-img" alt="FAISS" src="https://ai.facebook.com/resources/faiss/faiss-logo.svg"></a>
+      <a href="https://developer.nvidia.com/cuda-zone" class="badge-link" target="_blank"><img class="badge-img" alt="CUDA" src="https://img.shields.io/badge/CUDA-007396?logo=cuda&logoColor=white"></a>
+    </div>
+  </section>
+  
+  <hr>
+  
+  <!-- Visitor Count -->
+  <section class="visitor-count" align="center">
+    <img src="https://komarev.com/ghpvc/?username=Divyeshpratap&label=Profile%20views&color=FF5733&style=flat" alt="Visitor Count">
+  </section>
+  
+  <!-- GitHub Stats -->
+  <section class="github-stats">
+    <h2 class="section-title">🐙 GitHub Stats</h2>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Divyeshpratap&theme=gruvbox" alt="Divyesh's GitHub Stats">
+  </section>
+  
+  <!-- GitHub Streak Stats -->
+  <section class="streak-stats">
+    <h2 class="section-title">What am I up to? 🤔</h2>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Divyeshpratap&theme=dark" alt="GitHub Streak">
+  </section>
+  
+  <!-- Top Languages Card -->
+  <section class="top-langs">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Divyeshpratap&theme=dark&layout=compact" alt="Top Languages">
+  </section>
+  
+  <!-- GitHub Activity Graph -->
+  <section class="activity-graph" align="center">
+    <a href="https://github.com/Divyeshpratap/github-readme-activity-graph">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Divyeshpratap&theme=react-dark&hide_border=true" alt="Divyesh's GitHub activity graph">
+    </a>
+  </section>
+  
+  <!-- Footer Image or Animation -->
+  <footer>
+    <p align="center">
+      <img src="https://i.imgur.com/dBaSKWF.gif" alt="Footer Animation" class="footer-img">
+    </p>
+  </footer>
+  
+  <hr>
+  
+  <!-- Featured Repositories Section -->
+  <section class="featured-repos">
+    <h2 class="section-title">📂 Featured Repositories</h2>
+    <h3>ChildSpeak - Early Speech Pattern Analysis Using NLP for Language Development</h3>
+    <div class="featured-repos-table">
+      <table>
+        <tr>
+          <td>
+            <a href="https://github.com/Divyeshpratap/ChildSpeak-Early-Speech-Pattern-Analysis-using-NLP-for-Language-Development" target="_blank">
+              <img src="https://github-readme-stats.vercel.app/api/pin/?username=Divyeshpratap&repo=ChildSpeak-Early-Speech-Pattern-Analysis-using-NLP-for-Language-Development&theme=algolia&hide_border=false" alt="ChildSpeak">
+            </a>
+          </td>
+          <td>
+            <a href="https://github.com/Divyeshpratap/A.I.-AutoInspector" target="_blank">
+              <img src="https://github-readme-stats.vercel.app/api/pin/?username=Divyeshpratap&repo=A.I.-AutoInspector&theme=algolia&hide_border=false" alt="Automobile Inspector">
+            </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  
+  <hr>
+  
+  <!-- Projects Section -->
+  <section class="projects">
+    <h2 class="section-title">🚀 Projects</h2>
+    
+    <div class="project">
+      <h3><a href="https://github.com/Divyeshpratap/NVson" target="_blank">NVson - Noun Verb Syntax Observation Network</a></h3>
+      <p><em>March 2024 ‑ August 2024</em></p>
+      <p><a href="https://github.com/Divyeshpratap/NVson" target="_blank"><img src="https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white" alt="NVson"></a></p>
+      <ul>
+        <li><strong>NVson:</strong> Developed an <strong>explanatory model</strong> to classify words into previously undefined categories.</li>
+        <li><strong>Functionality:</strong> Classifies nouns into <strong>Shape and Non-Shape Nouns</strong>, and verbs into <strong>Result and Manner Verbs</strong>.</li>
+        <li><strong>Technologies:</strong> <strong>GPT 4o-mini</strong>, <strong>LLaMA 3.1 405B</strong>, <strong>RoBERTa base</strong>, and <strong>SpaCy Transformers</strong>.</li>
+        <li><strong>Achievements:</strong> Self-annotated a large dataset of <strong>2.5 million words</strong> with new POS tags by leveraging GPT to replace human annotators, achieving high classification accuracy (<strong>94%</strong> on Shape/Non-Shape nouns and <strong>97%</strong> on Result/Manner Verbs).</li>
+      </ul>
+    </div>
+    
+    <div class="project">
+      <h3><a href="https://github.com/Divyeshpratap/A.I.-AutoInspector" target="_blank">Automobile Inspector: AI-Powered Car Damage Detection and Chatbot Platform</a></h3>
+      <p><em>June 2024 ‑ August 2024</em></p>
+      <p><a href="https://github.com/Divyeshpratap/A.I.-AutoInspector" target="_blank"><img src="https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white" alt="Automobile Inspector"></a></p>
+      <ul>
+        <li><strong>Deployment:</strong> AI-driven web application integrating <strong>computer vision</strong> and <strong>NLP</strong> for comprehensive car repair solutions and online support.</li>
+        <li><strong>Technologies:</strong> <strong>Mask R-CNN</strong>, <strong>ResNet-101</strong>, <strong>Deformable Convolution Networks (DCN)</strong>, <strong>Flask</strong>, <strong>Ollama</strong>, <strong>LLaMA</strong>, <strong>Facebook FAISS</strong>.</li>
+        <li><strong>Achievements:</strong> Streamlined damage detection and cost estimation processes, enhancing user experience with a <strong>user-centric interface</strong>.</li>
+      </ul>
+    </div>
+  </section>
+  
+  <hr>
+  
+  <!-- Experience Section -->
+  <section class="experience">
+    <h2 class="section-title">💼 Experience</h2>
+    
+    <div class="experience-item">
+      <h3>Research Assistant</h3>
+      <p><strong>The Research Foundation SUNY, University at Buffalo | NY, USA</strong></p>
+      <p><em>April 2024 ‑ Present</em></p>
+      <p><a href="https://github.com/Divyeshpratap/ChildSpeak-Early-Speech-Pattern-Analysis-using-NLP-for-Language-Development" target="_blank"><img src="https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white" alt="ChildSpeak"></a></p>
+      <ul>
+        <li><strong>ChildSpeak Project:</strong> Designing a <strong>causal modeling pipeline</strong> for speech pattern analysis in children.</li>
+        <li><strong>Functionality:</strong> Identifies toddlers as <strong>Late Talkers</strong> or <strong>Typically Developing</strong> using parent-child audio conversations.</li>
+        <li><strong>Technologies:</strong> <strong>OpenAI Whisper</strong>, <strong>Pyannote</strong>, <strong>SpaCy Transformers</strong>.</li>
+        <li><strong>Status:</strong> Completed transcription and classification pipelines. <strong>Causal modeling</strong> in progress.</li>
+      </ul>
+    </div>
+    
+    <div class="experience-item">
+      <h3>Data Science Lead Assistant Manager</h3>
+      <p><strong>EXL Analytics | Gurugram, India</strong></p>
+      <p><em>November 2021 ‑ June 2023</em></p>
+      <ul>
+        <li><strong>Continuous Data Integrity Tool:</strong> Implemented data quality controls for <strong>Credit & Fraud risk models</strong>.</li>
+        <li><strong>Risk Strategy and Remediation Tool:</strong> Developed strategies to adjust credit lines and manage adverse actions based on transactional behaviors.</li>
+        <li><strong>Achievements:</strong> Reduced delinquent losses by <strong>5%</strong> and manual verification efforts by <strong>30%</strong>. Engineered a <strong>scalable anomaly detection framework</strong> optimizing real-time data fidelity.</li>
+      </ul>
+    </div>
+    
+    <div class="experience-item">
+      <h3>Analytics Deputy Manager</h3>
+      <p><strong>Suzuki Motors India Limited | Gurugram, India</strong></p>
+      <p><em>July 2017 ‑ November 2021</em></p>
+      <ul>
+        <li><strong>Inventory Management & SKU Demand Forecasting:</strong> Enhanced inventory turnover ratio, leading to <strong>annual cost savings of $7 million</strong>.</li>
+        <li><strong>Technologies Used:</strong> <strong>PySpark</strong>, <strong>Gradient Boosting</strong>, <strong>Hadoop</strong>, <strong>HBase</strong>, <strong>Hive</strong>, <strong>Spring MVC</strong>, <strong>JAVA</strong>.</li>
+        <li><strong>Achievements:</strong> Increased inventory turnover ratio from <strong>3.2</strong> to <strong>4.7</strong>.</li>
+      </ul>
+    </div>
+  </section>
+  
+  <hr>
+  
+  <!-- Education Section -->
+  <section class="education">
+    <h2 class="section-title">🎓 Education</h2>
+    
+    <div class="education-item">
+      <h3>Master of Science in Artificial Intelligence</h3>
+      <p><strong>University at Buffalo, The State University of New York | NY, USA</strong></p>
+      <p><em>August 2023 ‑ December 2024</em> | GPA: <strong>3.75/4.0</strong></p>
+    </div>
+    
+    <div class="education-item">
+      <h3>Bachelor of Technology in Electrical Engineering</h3>
+      <p><strong>Thapar University | India</strong></p>
+      <p><em>July 2013 ‑ June 2017</em> | GPA: <strong>8.23/10</strong></p>
+    </div>
+    
+    <p><strong>Relevant Courses:</strong> Machine Learning, Pattern Recognition, Computer Vision & Image Processing, Reinforcement Learning, Deep Learning, Advanced Algorithm Analysis & Data Structures, Data Intensive Computing, Information Retrieval, Numerical Math.</p>
+  </section>
+  
+  <hr>
+  
+  <!-- Skills Section -->
+  <section class="skills">
+    <h2 class="section-title">🛠️ Skills</h2>
+    
+    <ul>
+      <li><strong>Programming:</strong> Python, HIVE, PySpark, SQL, Java, Shell Scripting, HTML, LaTeX, Apache Solr.</li>
+      <li><strong>Machine Learning:</strong> Transformers, Parameter-Efficient Training, LoRA, Predictive Analytics, Feature Engineering, Clustering, Advanced Statistics.</li>
+      <li><strong>Frameworks/Libraries:</strong> PyTorch, TensorFlow, Hugging Face, Hadoop, scikit-learn, Pandas, statsmodels, NumPy, OpenMMLab, CUDA, spaCy, NLTK.</li>
+      <li><strong>Information Technology:</strong> Linux, Cloud Computing, Distributed Computing, Big Data, OpenShift, Git, Postman, GCP, Agile, JIRA, Kanban.</li>
+    </ul>
+  </section>
+  
+  <hr>
+  
+  <!-- Featured Repositories Section -->
+  <section class="featured-repos">
+    <h2 class="section-title">📂 Featured Repositories</h2>
+    <h3>Full Stack employing Computer Vision and RAG Chatbot</h3>
+    <table>
+      <tr>
+        <td>
+          <a href="https://github.com/Divyeshpratap/A.I.-AutoInspector" target="_blank">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=Divyeshpratap&repo=A.I.-AutoInspector&theme=algolia&hide_border=false" alt="Automobile Inspector">
+          </a>
+        </td>
+      </tr>
+    </table>
+  </section>
+  
+  <hr>
+  
+  <!-- Connect Section -->
+  <section class="connect">
+    <h2 class="section-title">📫 Connect With Me</h2>
+    <p>
+      <a href="https://www.linkedin.com/in/divyesh-pratap-singh/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/Divyeshpratap" target="_blank">
+        <img src="https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white" alt="GitHub">
+      </a>
+    </p>
+  </section>
+  
+  <hr>
+  
+  <!-- Footer Image or Animation -->
+  <footer>
+    <p align="center">
+      <img src="https://i.imgur.com/dBaSKWF.gif" alt="Footer Animation" class="footer-img">
+    </p>
+  </footer>
+  
 </body>
 </html>
