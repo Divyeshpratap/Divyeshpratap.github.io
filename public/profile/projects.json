@@ -1,0 +1,89 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/automobileInspector.png",
+            "title": "A.I.-Automobile Inspector",
+            "bodyText": "- AI powered **car visual damage assessment**, and **RAG** based chatbot for customer support. \n -  Damage detection, costing, and repair services in **5 clicks**. \n - Flask based application with SQL database. \n - Complete Full Stack Application with both Computer vision and LLM pipeline.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Divyeshpratap/A.I.-AutoInspector"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://github.com/Divyeshpratap/A.I.-AutoInspector"
+                }
+            ],
+            "tags" : [
+                "Chat Bot",
+                "Image Segmentation",
+                "Flask",
+                "Deformable Convolution Network",
+                "LangChain",
+                "Generative AI",
+                "YOLOv8",
+                "ResNet-101",
+                "FAISS"
+            ]
+        },
+        {
+            "image" : "images/projects/NVson.png",
+            "title": "NVson - Noun Verb Syntax Observation Network",
+            "bodyText": "- Trained from scratch a POS Tagging **RoBERTa** based model to classify words into previously undefined categories. \n - Self-annotated a large dataset of 2.5 million words with new POS tags by leveraging GPT to replace human annotators.\n - Classifies nouns into Shape and Non-Shape Nouns, and verbs into Result and Manner Verbs.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "hhttps://github.com/Divyeshpratap/NVson"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://github.com/Divyeshpratap/NVson"
+                }
+            ],
+            "tags" : [
+                "SpaCy",
+                "GPT",
+                "RoBERTa",
+                "Prompt Engineering"
+            ]
+        },
+        {
+            "image" : "images/projects/pong.gif",
+            "title": "Atari Pong RL Agent",
+            "bodyText": "- **Deep-Q Reinforcement Learning** implementation of Atari Pong using gymnasium environment. \n - RL Agent continouously wins over the Atari agent.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                }
+            ],
+            "tags" : [
+                "Double Deep Q Network",
+                "Reinforcement Learning",
+                "Proximal Policy Optimization",
+                "VIT"
+            ]
+        },
+        {
+            "image" : "images/projects/eeg.gif",
+            "title": "NeuroBeatsDL",
+            "bodyText": "- Conditional VAE implementation to **model the influence of binaural beats on brain signals**. \n - Model accurately identifies if a brain is under the influence of binaural beats or not during a congitive task. \n Electroencephalogram (EEG) signals preprocessed using MATLAB pipeline.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/dgusain/NeuroBeatsDL"
+                }
+            ],
+            "tags" : [
+                "CVAE",
+                "KL divergence",
+                "Reconstruction Loss",
+                "Conditional GAN",
+                "UMAP",
+                "T-SNE",
+                "Latent Space",
+                "Fourier Analysis"
+            ]
+        }
+    ]
+}

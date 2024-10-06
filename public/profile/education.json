@@ -1,0 +1,28 @@
+{
+    "education":[
+        {
+            "title": "July 2023 - December 2024",
+            "cardTitle": "Masters in Artificial Intelligence",
+            "cardSubtitle":"University at Buffalo, New York",
+            "cardDetailedText": "GPA - 3.75/4.0",
+            "icon" : {
+                "src": "/images/education/thapar.png"
+            }
+        },
+        {
+            "title": "July 2013 - June 2017",
+            "cardTitle": "Bachelors in Electrical Engineering",
+            "cardSubtitle":"Thapar University, India",
+            "cardDetailedText": "CGPA - 8.23/10"
+        },
+        {
+            "title": "July 2011 - May 2013 ",
+            "cardTitle": "High School",
+            "cardSubtitle":"Chirec World School, Hyderabad, India",
+            "cardDetailedText": "Marks - 92.6%",
+            "icon" : {
+                "src": "images/education/thapar.png"
+            }
+        }
+    ]
+}
