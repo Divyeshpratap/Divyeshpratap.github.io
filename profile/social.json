@@ -1,0 +1,20 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/divyesh-pratap-singh"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/Divyeshpratap"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:singh_divyesh@outlook.com"
+        },
+        {
+            "network" : "Leetcode",
+            "href": "mailto:singh_divyesh@outlook.com"
+        }
+    ]
+}
